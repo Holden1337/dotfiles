@@ -1,0 +1,5 @@
+2020/12/18-08:56:33.887 e6e5 Reusing MANIFEST /home/holden/.config/chromium/Default/IndexedDB/https_parenting.firstcry.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/12/18-08:56:37.609 e6dd Level-0 table #5: started
+2020/12/18-08:56:37.612 e6dd Level-0 table #5: 354 bytes OK
+2020/12/18-08:56:37.618 e6dd Delete type=0 #3
+2020/12/18-08:56:37.618 e6dd Manual compaction at level-0 from (begin) .. (end); will stop at (end)

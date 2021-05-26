@@ -1,0 +1,13 @@
+xset -b
+xrandr --output DP-4 --mode 1920x1080 --rate 144
+xrandr --output DP-2 --mode 1920x1080 --rate 144
+
+xrdb -merge ~/.Xresources
+nm-applet&!
+wal -R
+setxkbmap -layout us,ru -option grp:alt_space_toggle
+picom -b
+exec i3
+
+# Add this to your .xinitrc or whatever file starts programs on startup.
+# -R restores the last colorscheme that was in use.

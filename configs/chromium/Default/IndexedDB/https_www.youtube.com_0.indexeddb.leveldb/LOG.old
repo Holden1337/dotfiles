@@ -1,0 +1,7 @@
+2021/05/04-08:50:58.274 1c0b Reusing MANIFEST /home/holden/.config/chromium/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2021/05/04-08:50:58.274 1c0b Recovering log #4
+2021/05/04-08:50:58.280 1c0b Reusing old log /home/holden/.config/chromium/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/000004.log 
+2021/05/04-08:50:59.406 1bf7 Level-0 table #8: started
+2021/05/04-08:50:59.414 1bf7 Level-0 table #8: 360704 bytes OK
+2021/05/04-08:50:59.418 1bf7 Delete type=0 #4
+2021/05/04-08:50:59.418 1bf7 Manual compaction at level-0 from '\x00\x08\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x09\x00\x00\x00' @ 0 : 0; will stop at (end)

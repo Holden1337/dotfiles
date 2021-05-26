@@ -1,0 +1,626 @@
+Mono path[0] = '/home/holden/.local/share/Steam/steamapps/common/Valheim/valheim_Data/Managed'
+Mono config path = '/home/holden/.local/share/Steam/steamapps/common/Valheim/valheim_Data/MonoBleedingEdge/etc'
+Preloaded 'libsteam_api.so'
+Display 0 'VG248 24"': 1920x1080 (primary device).
+Display 1 'VG248 24"': 1920x1080 (secondary device).
+Unable to load player prefs
+Desktop is 1920 x 1080 @ 60 Hz
+[Vulkan init] extensions: count=17
+[Vulkan init] extensions: name=VK_KHR_device_group_creation, enabled=0
+[Vulkan init] extensions: name=VK_KHR_display, enabled=1
+[Vulkan init] extensions: name=VK_KHR_external_fence_capabilities, enabled=0
+[Vulkan init] extensions: name=VK_KHR_external_memory_capabilities, enabled=0
+[Vulkan init] extensions: name=VK_KHR_external_semaphore_capabilities, enabled=0
+[Vulkan init] extensions: name=VK_KHR_get_display_properties2, enabled=0
+[Vulkan init] extensions: name=VK_KHR_get_physical_device_properties2, enabled=0
+[Vulkan init] extensions: name=VK_KHR_get_surface_capabilities2, enabled=0
+[Vulkan init] extensions: name=VK_KHR_surface, enabled=1
+[Vulkan init] extensions: name=VK_KHR_surface_protected_capabilities, enabled=0
+[Vulkan init] extensions: name=VK_KHR_xcb_surface, enabled=0
+[Vulkan init] extensions: name=VK_KHR_xlib_surface, enabled=1
+[Vulkan init] extensions: name=VK_EXT_acquire_xlib_display, enabled=0
+[Vulkan init] extensions: name=VK_EXT_debug_report, enabled=0
+[Vulkan init] extensions: name=VK_EXT_debug_utils, enabled=0
+[Vulkan init] extensions: name=VK_EXT_direct_mode_display, enabled=0
+[Vulkan init] extensions: name=VK_EXT_display_surface_counter, enabled=0
+Vulkan detection: 2
+Initialize engine version: 2019.4.20f1 (6dd1c08eedfa)
+[Subsystems] Discovering subsystems at path /home/holden/.local/share/Steam/steamapps/common/Valheim/valheim_Data/UnitySubsystems
+GfxDevice: creating device client; threaded=1
+[Vulkan init] extensions: count=17
+[Vulkan init] extensions: name=VK_KHR_device_group_creation, enabled=0
+[Vulkan init] extensions: name=VK_KHR_display, enabled=1
+[Vulkan init] extensions: name=VK_KHR_external_fence_capabilities, enabled=0
+[Vulkan init] extensions: name=VK_KHR_external_memory_capabilities, enabled=0
+[Vulkan init] extensions: name=VK_KHR_external_semaphore_capabilities, enabled=0
+[Vulkan init] extensions: name=VK_KHR_get_display_properties2, enabled=0
+[Vulkan init] extensions: name=VK_KHR_get_physical_device_properties2, enabled=0
+[Vulkan init] extensions: name=VK_KHR_get_surface_capabilities2, enabled=0
+[Vulkan init] extensions: name=VK_KHR_surface, enabled=1
+[Vulkan init] extensions: name=VK_KHR_surface_protected_capabilities, enabled=0
+[Vulkan init] extensions: name=VK_KHR_xcb_surface, enabled=0
+[Vulkan init] extensions: name=VK_KHR_xlib_surface, enabled=1
+[Vulkan init] extensions: name=VK_EXT_acquire_xlib_display, enabled=0
+[Vulkan init] extensions: name=VK_EXT_debug_report, enabled=0
+[Vulkan init] extensions: name=VK_EXT_debug_utils, enabled=0
+[Vulkan init] extensions: name=VK_EXT_direct_mode_display, enabled=0
+[Vulkan init] extensions: name=VK_EXT_display_surface_counter, enabled=0
+[Vulkan init] SelectPhysicalDevice requestedDeviceIndex=-1 xrDevice=(nil)
+[Vulkan init] Physical Device 0x20e3550 [0]: "NVIDIA GeForce GTX 1070" deviceType=2 vendorID=10de deviceID=1b81
+[Vulkan init] Selected physical device 0x20e3550
+[Vulkan init] Graphics queue count=1
+[Vulkan init] extensions: count=116
+[Vulkan init] extensions: name=VK_KHR_16bit_storage, enabled=0
+[Vulkan init] extensions: name=VK_KHR_8bit_storage, enabled=0
+[Vulkan init] extensions: name=VK_KHR_acceleration_structure, enabled=0
+[Vulkan init] extensions: name=VK_KHR_bind_memory2, enabled=0
+[Vulkan init] extensions: name=VK_KHR_buffer_device_address, enabled=0
+[Vulkan init] extensions: name=VK_KHR_copy_commands2, enabled=0
+[Vulkan init] extensions: name=VK_KHR_create_renderpass2, enabled=0
+[Vulkan init] extensions: name=VK_KHR_dedicated_allocation, enabled=1
+[Vulkan init] extensions: name=VK_KHR_deferred_host_operations, enabled=0
+[Vulkan init] extensions: name=VK_KHR_depth_stencil_resolve, enabled=0
+[Vulkan init] extensions: name=VK_KHR_descriptor_update_template, enabled=1
+[Vulkan init] extensions: name=VK_KHR_device_group, enabled=0
+[Vulkan init] extensions: name=VK_KHR_draw_indirect_count, enabled=0
+[Vulkan init] extensions: name=VK_KHR_driver_properties, enabled=0
+[Vulkan init] extensions: name=VK_KHR_external_fence, enabled=0
+[Vulkan init] extensions: name=VK_KHR_external_fence_fd, enabled=0
+[Vulkan init] extensions: name=VK_KHR_external_memory, enabled=0
+[Vulkan init] extensions: name=VK_KHR_external_memory_fd, enabled=0
+[Vulkan init] extensions: name=VK_KHR_external_semaphore, enabled=0
+[Vulkan init] extensions: name=VK_KHR_external_semaphore_fd, enabled=0
+[Vulkan init] extensions: name=VK_KHR_get_memory_requirements2, enabled=1
+[Vulkan init] extensions: name=VK_KHR_image_format_list, enabled=1
+[Vulkan init] extensions: name=VK_KHR_imageless_framebuffer, enabled=0
+[Vulkan init] extensions: name=VK_KHR_maintenance1, enabled=1
+[Vulkan init] extensions: name=VK_KHR_maintenance2, enabled=1
+[Vulkan init] extensions: name=VK_KHR_maintenance3, enabled=0
+[Vulkan init] extensions: name=VK_KHR_multiview, enabled=1
+[Vulkan init] extensions: name=VK_KHR_pipeline_executable_properties, enabled=0
+[Vulkan init] extensions: name=VK_KHR_pipeline_library, enabled=0
+[Vulkan init] extensions: name=VK_KHR_push_descriptor, enabled=0
+[Vulkan init] extensions: name=VK_KHR_ray_tracing_pipeline, enabled=0
+[Vulkan init] extensions: name=VK_KHR_relaxed_block_layout, enabled=0
+[Vulkan init] extensions: name=VK_KHR_sampler_mirror_clamp_to_edge, enabled=1
+[Vulkan init] extensions: name=VK_KHR_sampler_ycbcr_conversion, enabled=0
+[Vulkan init] extensions: name=VK_KHR_separate_depth_stencil_layouts, enabled=0
+[Vulkan init] extensions: name=VK_KHR_shader_atomic_int64, enabled=0
+[Vulkan init] extensions: name=VK_KHR_shader_clock, enabled=0
+[Vulkan init] extensions: name=VK_KHR_shader_draw_parameters, enabled=0
+[Vulkan init] extensions: name=VK_KHR_shader_float16_int8, enabled=0
+[Vulkan init] extensions: name=VK_KHR_shader_float_controls, enabled=0
+[Vulkan init] extensions: name=VK_KHR_shader_non_semantic_info, enabled=0
+[Vulkan init] extensions: name=VK_KHR_shader_subgroup_extended_types, enabled=0
+[Vulkan init] extensions: name=VK_KHR_shader_terminate_invocation, enabled=0
+[Vulkan init] extensions: name=VK_KHR_spirv_1_4, enabled=0
+[Vulkan init] extensions: name=VK_KHR_storage_buffer_storage_class, enabled=0
+[Vulkan init] extensions: name=VK_KHR_swapchain, enabled=1
+[Vulkan init] extensions: name=VK_KHR_swapchain_mutable_format, enabled=0
+[Vulkan init] extensions: name=VK_KHR_synchronization2, enabled=0
+[Vulkan init] extensions: name=VK_KHR_timeline_semaphore, enabled=0
+[Vulkan init] extensions: name=VK_KHR_uniform_buffer_standard_layout, enabled=0
+[Vulkan init] extensions: name=VK_KHR_variable_pointers, enabled=0
+[Vulkan init] extensions: name=VK_KHR_vulkan_memory_model, enabled=0
+[Vulkan init] extensions: name=VK_KHR_workgroup_memory_explicit_layout, enabled=0
+[Vulkan init] extensions: name=VK_KHR_zero_initialize_workgroup_memory, enabled=0
+[Vulkan init] extensions: name=VK_EXT_4444_formats, enabled=0
+[Vulkan init] extensions: name=VK_EXT_blend_operation_advanced, enabled=0
+[Vulkan init] extensions: name=VK_EXT_buffer_device_address, enabled=0
+[Vulkan init] extensions: name=VK_EXT_calibrated_timestamps, enabled=0
+[Vulkan init] extensions: name=VK_EXT_conditional_rendering, enabled=0
+[Vulkan init] extensions: name=VK_EXT_conservative_rasterization, enabled=0
+[Vulkan init] extensions: name=VK_EXT_custom_border_color, enabled=0
+[Vulkan init] extensions: name=VK_EXT_depth_clip_enable, enabled=0
+[Vulkan init] extensions: name=VK_EXT_depth_range_unrestricted, enabled=0
+[Vulkan init] extensions: name=VK_EXT_descriptor_indexing, enabled=0
+[Vulkan init] extensions: name=VK_EXT_discard_rectangles, enabled=0
+[Vulkan init] extensions: name=VK_EXT_display_control, enabled=0
+[Vulkan init] extensions: name=VK_EXT_extended_dynamic_state, enabled=0
+[Vulkan init] extensions: name=VK_EXT_external_memory_host, enabled=0
+[Vulkan init] extensions: name=VK_EXT_fragment_shader_interlock, enabled=0
+[Vulkan init] extensions: name=VK_EXT_global_priority, enabled=0
+[Vulkan init] extensions: name=VK_EXT_host_query_reset, enabled=0
+[Vulkan init] extensions: name=VK_EXT_image_robustness, enabled=0
+[Vulkan init] extensions: name=VK_EXT_index_type_uint8, enabled=0
+[Vulkan init] extensions: name=VK_EXT_inline_uniform_block, enabled=0
+[Vulkan init] extensions: name=VK_EXT_line_rasterization, enabled=0
+[Vulkan init] extensions: name=VK_EXT_memory_budget, enabled=0
+[Vulkan init] extensions: name=VK_EXT_pci_bus_info, enabled=0
+[Vulkan init] extensions: name=VK_EXT_pipeline_creation_cache_control, enabled=0
+[Vulkan init] extensions: name=VK_EXT_pipeline_creation_feedback, enabled=0
+[Vulkan init] extensions: name=VK_EXT_post_depth_coverage, enabled=0
+[Vulkan init] extensions: name=VK_EXT_private_data, enabled=0
+[Vulkan init] extensions: name=VK_EXT_robustness2, enabled=0
+[Vulkan init] extensions: name=VK_EXT_sample_locations, enabled=0
+[Vulkan init] extensions: name=VK_EXT_sampler_filter_minmax, enabled=0
+[Vulkan init] extensions: name=VK_EXT_scalar_block_layout, enabled=0
+[Vulkan init] extensions: name=VK_EXT_separate_stencil_usage, enabled=0
+[Vulkan init] extensions: name=VK_EXT_shader_atomic_float, enabled=0
+[Vulkan init] extensions: name=VK_EXT_shader_demote_to_helper_invocation, enabled=0
+[Vulkan init] extensions: name=VK_EXT_shader_image_atomic_int64, enabled=0
+[Vulkan init] extensions: name=VK_EXT_shader_subgroup_ballot, enabled=0
+[Vulkan init] extensions: name=VK_EXT_shader_subgroup_vote, enabled=0
+[Vulkan init] extensions: name=VK_EXT_shader_viewport_index_layer, enabled=0
+[Vulkan init] extensions: name=VK_EXT_subgroup_size_control, enabled=0
+[Vulkan init] extensions: name=VK_EXT_texel_buffer_alignment, enabled=0
+[Vulkan init] extensions: name=VK_EXT_tooling_info, enabled=0
+[Vulkan init] extensions: name=VK_EXT_transform_feedback, enabled=0
+[Vulkan init] extensions: name=VK_EXT_vertex_attribute_divisor, enabled=0
+[Vulkan init] extensions: name=VK_EXT_ycbcr_image_arrays, enabled=0
+[Vulkan init] extensions: name=VK_NV_clip_space_w_scaling, enabled=0
+[Vulkan init] extensions: name=VK_NV_coverage_reduction_mode, enabled=0
+[Vulkan init] extensions: name=VK_NV_dedicated_allocation, enabled=0
+[Vulkan init] extensions: name=VK_NV_dedicated_allocation_image_aliasing, enabled=0
+[Vulkan init] extensions: name=VK_NV_device_diagnostic_checkpoints, enabled=0
+[Vulkan init] extensions: name=VK_NV_device_diagnostics_config, enabled=0
+[Vulkan init] extensions: name=VK_NV_device_generated_commands, enabled=0
+[Vulkan init] extensions: name=VK_NV_fill_rectangle, enabled=0
+[Vulkan init] extensions: name=VK_NV_fragment_coverage_to_color, enabled=0
+[Vulkan init] extensions: name=VK_NV_framebuffer_mixed_samples, enabled=0
+[Vulkan init] extensions: name=VK_NV_geometry_shader_passthrough, enabled=0
+[Vulkan init] extensions: name=VK_NV_ray_tracing, enabled=0
+[Vulkan init] extensions: name=VK_NV_sample_mask_override_coverage, enabled=0
+[Vulkan init] extensions: name=VK_NV_shader_sm_builtins, enabled=0
+[Vulkan init] extensions: name=VK_NV_shader_subgroup_partitioned, enabled=0
+[Vulkan init] extensions: name=VK_NV_viewport_array2, enabled=0
+[Vulkan init] extensions: name=VK_NV_viewport_swizzle, enabled=0
+[Vulkan init] extensions: name=VK_NVX_multiview_per_view_attributes, enabled=0
+Fossilize INFO: Overriding serialization path: "/home/holden/.local/share/Steam/steamapps/shadercache/892970/fozpipelinesv5/steamapprun_pipeline_cache".
+Vulkan API version 1.1.0 (1.2.168 supported by driver)
+Vulkan vendor=[NVIDIA] id=[10de]
+Vulkan renderer=[NVIDIA GeForce GTX 1070] id=[1b81]
+Vulkan device type 2
+Vulkan driverversion=[0x74460080] uint=[1950744704]
+Vulkan PSO: cache data not found [path=/tmp/IronGate/Valheim/vulkan_pso_cache.bin]
+Begin MonoManager ReloadAssembly
+- Completed reload, in  0.044 seconds
+requesting resize 1366 x 768
+resizing window to 1366 x 768
+Desktop is 1920 x 1080 @ 60 Hz
+InitializeOrResetSwapChain 1366x768 hdr=0 samples=1
+UnloadTime: 0.459112 ms
+Desktop is 1920 x 1080 @ 60 Hz
+InitializeOrResetSwapChain 906x955 hdr=0 samples=1
+04/24/2021 22:20:45: Starting to load scene:start
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+Setting up 4 worker threads for Enlighten.
+  Thread -> id: 7f1ace224640 -> priority: 1 
+  Thread -> id: 7f1acda23640 -> priority: 1 
+  Thread -> id: 7f1accace640 -> priority: 1 
+  Thread -> id: 7f1ac0ffc640 -> priority: 1 
+UnloadTime: 3.528706 ms
+Only custom filters can be played. Please add a custom filter or an audioclip to the audiosource (Amb_MainMenu). 
+(Filename:  Line: 509)
+
+04/24/2021 22:20:52: Valheim version:0.150.3
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+04/24/2021 22:20:52: Render threading mode:MultiThreaded
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+04/24/2021 22:20:52: Using environment steamid 892970
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+04/24/2021 22:20:52: Using steam APPID:892970
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+[S_API] SteamAPI_Init(): Loaded '/home/holden/.local/share/Steam/linux64/steamclient.so' OK.
+Setting breakpad minidump AppID = 892970
+SteamInternal_SetMinidumpSteamID:  Caching Steam ID:  76561198142246787 [API loaded no]
+04/24/2021 22:20:52: Authentication:k_ESteamNetworkingAvailability_Attempting
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+04/24/2021 22:20:52: Steam initialized, persona:Jean Ralphio
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+04/24/2021 22:20:52: Missing audio clip in music respawn
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+04/24/2021 22:20:52: Checking for installed DLCs
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+04/24/2021 22:20:52: DLC:beta installed:False
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+04/24/2021 22:20:52: Builder started
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+04/24/2021 22:20:53: Loaded localization English
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+requesting resize 906 x 955
+resizing window to 906 x 955
+Desktop is 1920 x 1080 @ 60 Hz
+InitializeOrResetSwapChain 906x955 hdr=0 samples=1
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 88024.
+Total: 38.451497 ms (FindLiveObjects: 2.852894 ms CreateObjectMapping: 6.796749 ms MarkObjects: 28.620500 ms  DeleteObjects: 0.180862 ms)
+
+04/24/2021 22:20:55: UI Group status changed Menu = True
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+InitializeOrResetSwapChain 1916x1035 hdr=0 samples=1
+04/24/2021 22:21:02: Current res 1920x1080     1916x1035
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+04/24/2021 22:21:02: UI Group status changed Menu = False
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+04/24/2021 22:21:07: UI Group status changed Menu = True
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+04/24/2021 22:21:09: show character selection
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+04/24/2021 22:21:13: OnCharacterStart
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+04/24/2021 22:21:13: UI Group status changed Panel = False
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+04/24/2021 22:21:29: UI Group status changed Panel = True
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+04/24/2021 22:21:31: UI Group status changed Panel = False
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+04/24/2021 22:21:31: UI Group status changed panel = True
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+04/24/2021 22:21:53: UI Group status changed Panel = True
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 7.620159 ms
+04/24/2021 22:21:58: Loading player profile þjóðvarður
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+04/24/2021 22:21:58: Zonesystem Awake 3842
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+04/24/2021 22:21:58: DungeonDB Awake 3842
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+04/24/2021 22:21:58: Steam initialized, persona:Jean Ralphio
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+04/24/2021 22:22:01: Load world helloworld
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+04/24/2021 22:22:01:   missing world.dat
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+04/24/2021 22:22:01: Audioman already exist, destroying self
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+04/24/2021 22:22:01: Checking for installed DLCs
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+04/24/2021 22:22:01: DLC:beta installed:False
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+
+Unloading 513 unused Assets to reduce memory usage. Loaded Objects now: 87251.
+Total: 48.525332 ms (FindLiveObjects: 2.597493 ms CreateObjectMapping: 6.856662 ms MarkObjects: 36.819845 ms  DeleteObjects: 2.250885 ms)
+
+04/24/2021 22:22:03: Zonesystem Start 3842
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+04/24/2021 22:22:03: Generating locations
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+04/24/2021 22:22:03: Checking for location duplicates
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+04/24/2021 22:22:24:  Done generating locations, duration:20813.073 ms
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+04/24/2021 22:22:24: DungeonDB Start 3842
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+04/24/2021 22:22:24: Starting respawn
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+04/24/2021 22:22:32: tip:$loadscreen_tip03
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+04/24/2021 22:22:32: Force generaeting hmap (0.0, 0.0, 0.0)
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+04/24/2021 22:22:32: Placed locations in zone 0,0  duration 16.569 ms
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+04/24/2021 22:22:32: Minimap: Adding unique location (-1.6, 34.7, -4.2)
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+04/24/2021 22:22:32: Placed locations in zone -1,-2  duration 0.73 ms
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+04/24/2021 22:22:33: Placed locations in zone 4,-3  duration 4.88 ms
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+04/24/2021 22:22:33: Placed locations in zone 4,-1  duration 16.696 ms
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+04/24/2021 22:22:34: Placed locations in zone 2,-1  duration 3.733 ms
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+04/24/2021 22:22:34: Placed locations in zone 1,0  duration 13.893 ms
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+04/24/2021 22:22:34: Placed locations in zone -2,-1  duration 0.235 ms
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+04/24/2021 22:22:35: Placed locations in zone -1,-1  duration 16.067 ms
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+04/24/2021 22:22:35: Placed locations in zone 2,0  duration 0.3 ms
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+04/24/2021 22:22:35: Placed locations in zone 1,1  duration 2.974 ms
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+04/24/2021 22:22:36: Placed locations in zone -1,2  duration 0.833 ms
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+04/24/2021 22:22:36: Placed locations in zone 1,2  duration 1.215 ms
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+04/24/2021 22:22:36: Spawned Deer x 2
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+04/24/2021 22:22:36: Spawned Boar x 2
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+04/24/2021 22:22:36: Spawned Boar x 1
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+04/24/2021 22:22:36: Spawned Neck x 2
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+04/24/2021 22:22:36: Spawned Seagal x 1
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+04/24/2021 22:22:36: Spawned Fish1 x 6
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+04/24/2021 22:22:36: Spawned Fish2 x 4
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+04/24/2021 22:22:37: Placed locations in zone -4,-3  duration 0.144 ms
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+04/24/2021 22:22:37: Placed locations in zone -3,-3  duration 0.317 ms
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+04/24/2021 22:22:37: Placed locations in zone -3,1  duration 0.928 ms
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+04/24/2021 22:22:38: Placed locations in zone 2,-3  duration 0.087 ms
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+04/24/2021 22:22:38: Placed locations in zone 3,-3  duration 6.19 ms
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+04/24/2021 22:22:38: Placed locations in zone 4,-2  duration 2.79 ms
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+04/24/2021 22:22:38: Placed locations in zone 3,-1  duration 0.53 ms
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+04/24/2021 22:22:39: Placed locations in zone 3,0  duration 4.064 ms
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+04/24/2021 22:22:39: Placed locations in zone 4,0  duration 3.146 ms
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+04/24/2021 22:22:39: Placed locations in zone -4,1  duration 0.688 ms
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+04/24/2021 22:22:39: Placed locations in zone -3,2  duration 2.986 ms
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+04/24/2021 22:22:39: Placed locations in zone 3,2  duration 6.502 ms
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+04/24/2021 22:22:39: Placed locations in zone -4,3  duration 0.097 ms
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+04/24/2021 22:22:40: Placed locations in zone -1,3  duration 3.021 ms
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+04/24/2021 22:22:40: Placed locations in zone -4,4  duration 10.805 ms
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+04/24/2021 22:22:41: Placed locations in zone -3,4  duration 2.837 ms
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+04/24/2021 22:22:41: Placed locations in zone -1,4  duration 3.614 ms
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+04/24/2021 22:22:41: Placed locations in zone 0,4  duration 10.67 ms
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+04/24/2021 22:22:41: Placed locations in zone 4,4  duration 3.341 ms
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+04/24/2021 22:22:52: Setting selected recipe 0
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+04/24/2021 22:22:52: UI Group status changed root = True
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+04/24/2021 22:22:52: UI Group status changed Player = True
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+04/24/2021 22:22:57: Placed locations in zone -3,5  duration 0.056 ms
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+04/24/2021 22:22:58: Placed locations in zone 1,5  duration 3.485 ms
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+04/24/2021 22:22:58: Spawned Deer x 3
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+04/24/2021 22:22:58: Spawned Boar x 1
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+04/24/2021 22:22:58: Placed locations in zone 2,5  duration 0.066 ms
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+04/24/2021 22:22:58: Placed locations in zone 4,5  duration 0.48 ms
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+04/24/2021 22:23:06: Placed locations in zone -5,2  duration 0.188 ms
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+04/24/2021 22:23:06: Placed locations in zone -5,3  duration 9.283 ms
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+04/24/2021 22:23:07: Placed locations in zone -5,4  duration 0.058 ms
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+04/24/2021 22:23:07: Placed locations in zone -5,5  duration 0.554 ms
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+04/24/2021 22:23:07: UI Group status changed MenuRoot = False
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+04/24/2021 22:23:08: Game - OnApplicationQuit
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+04/24/2021 22:23:09: ZNet Shutdown
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+04/24/2021 22:23:09: clone 25
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+04/24/2021 22:23:09: Saved 17494 zdos
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+04/24/2021 22:23:09: World saved ( 65.624ms )
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+04/24/2021 22:23:09: Sending disconnect msg
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+04/24/2021 22:23:11: Local player destroyed
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+04/24/2021 22:23:11: Steam manager on destroy
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+04/24/2021 22:23:11: ZNet OnDestroy
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+04/24/2021 22:23:11: Net scene destroyed
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+Vulkan PSO: data extracted [new size=2732754, old size=0, incomplete=0]
+Vulkan PSO: Saved size[2732754] path[/tmp/IronGate/Valheim/vulkan_pso_cache.bin] success=1 headerChanged=1 sizeChanged=1

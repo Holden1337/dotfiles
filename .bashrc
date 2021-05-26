@@ -8,9 +8,11 @@
 alias ls='ls --color=auto'
 alias matlab='/home/holden/Desktop/bin/.matlab'
 alias icat='kitty +kitten icat'
-alias theme='python ~/programming/python/projects/themer/theme.py'
 alias pape='python ~/programming/python/projects/wallchanger/wallchanger.py'
-PS1='[\u@\h \W]# '
+#PS1='[\u@\h \W]# '
+#PS1='[\u@\h \W]λ '
+#PS1='\W >> '
+PS1='\[\033[01;36m\][\[\033[m\]\[\033[01;34m\]\u@\h\[\033[m\] \[\033[01;32m\]\W\[\033[m\]\[\033[01;36m\]]\[\033[m\] λ '
 export VISUAL='vim'
 export EDITOR='vim'
 
@@ -24,3 +26,4 @@ cat ~/.cache/wal/sequences
 
 # To add support for TTYs this line can be optionally added.
 source ~/.cache/wal/colors-tty.sh
+source /opt/ros/noetic/setup.bash

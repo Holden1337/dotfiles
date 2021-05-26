@@ -1,0 +1,5 @@
+2020/12/18-08:56:36.519 e6dd Reusing MANIFEST /home/holden/.config/chromium/Default/IndexedDB/https_8e1b5e475723ebb6d10d3f0594f52080.safeframe.googlesyndication.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/12/18-08:56:40.966 e6f2 Level-0 table #5: started
+2020/12/18-08:56:40.976 e6f2 Level-0 table #5: 439 bytes OK
+2020/12/18-08:56:40.981 e6f2 Delete type=0 #3
+2020/12/18-08:56:40.982 e6f2 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

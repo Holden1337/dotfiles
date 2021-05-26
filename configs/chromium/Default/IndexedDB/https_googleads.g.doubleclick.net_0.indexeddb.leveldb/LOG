@@ -1,0 +1,6 @@
+2021/05/03-10:27:04.961 5711 Creating DB /home/holden/.config/chromium/Default/IndexedDB/https_googleads.g.doubleclick.net_0.indexeddb.leveldb since it was missing.
+2021/05/03-10:27:04.969 5711 Reusing MANIFEST /home/holden/.config/chromium/Default/IndexedDB/https_googleads.g.doubleclick.net_0.indexeddb.leveldb/MANIFEST-000001
+2021/05/03-10:27:08.437 524f Level-0 table #5: started
+2021/05/03-10:27:08.447 524f Level-0 table #5: 364 bytes OK
+2021/05/03-10:27:08.450 524f Delete type=0 #3
+2021/05/03-10:27:08.450 524f Manual compaction at level-0 from (begin) .. (end); will stop at (end)

@@ -1,0 +1,5 @@
+2021/03/11-09:49:08.877 2fd8 Reusing MANIFEST /home/holden/.config/chromium/Default/IndexedDB/https_www.washingtonpost.com_0.indexeddb.leveldb/MANIFEST-000001
+2021/03/11-09:49:15.705 32e8 Level-0 table #5: started
+2021/03/11-09:49:15.716 32e8 Level-0 table #5: 354 bytes OK
+2021/03/11-09:49:15.722 32e8 Delete type=0 #3
+2021/03/11-09:49:15.722 32e8 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
