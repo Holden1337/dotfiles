@@ -26,41 +26,40 @@ secondary = #e60053
 alert = #bd2c40
 
 [bar/example]
-monitor = ${env:MONITOR:}
+;monitor = ${env:MONITOR:HDMI-1}
 width = 100%
 height = 25
 ;offset-x = 1%
-;offset-y = 0%
+;offset-y = 1%
 radius = 0.0
-fixed-center = true
+fixed-center = false
 
 background = ${colors.background}
 foreground = ${colors.foreground}
 
-line-size = 0
+line-size = 2
 line-color = #f00
 
 border-size = 0
 border-color = #00000000
 
 padding-left = 0
-padding-right = 2
+padding-right = 1
 
 module-margin-left = 1
-module-margin-right = 2
+module-margin-right = 1
 
-font-0 = fixed:pixelsize=10;1
+font-0 = misc fixed:pixelsize=10;1
 font-1 = unifont:fontformat=truetype:size=8:antialias=false;0
-font-2 = Siji:pixelsize=10;1
-font-3 = Font Awesome 5 Free:pixeslsize=12;2
-font-4 = Font Awesome 5 Free Solid:pixelsize=12;2
-font-5 = Font Awesome 5 Brands:pixelsize=12;2
+font-2 = siji:pixelsize=10;1
+font-3 = Font Awesome 6 Free:pixelsize = 10;2
+font-4 = Font Awesome 6 Free Solid:pixelsize = 10;2
+font-5 = Font Awesome 6 Brands:pixelsize = 10;2
 
 modules-left = i3
-modules-center = 
-modules-right = weather spotify filesystem pulseaudio xkeyboard memory cpu eth  temperature date powermenu
+modules-center = mpd
+modules-right = news weather filesystem pulseaudio xkeyboard memory cpu wlan battery temperature date powermenu
 
-;separator = |
 
 tray-position = right
 tray-padding = 2
@@ -79,6 +78,23 @@ tray-padding = 2
 
 cursor-click = pointer
 cursor-scroll = ns-resize
+
+[module/news]
+type = custom/script
+tail = true
+interval = 1
+format-prefix = ""
+format = <label>
+label-padding = 1
+exec = ~/.config/polybar/scripts/news/scroll_news_status.sh
+;click-left = < ~/.config/polybar/scripts/news/current_url.txt xargs -I % xdg-open %
+
+[module/news-grab]
+type = custom/script
+exec = ~/.config/polybar/scripts/news/news.py
+interval = 900
+
+
 
 [module/spotify]
 type = custom/script
@@ -104,6 +120,7 @@ label = %title:0:30:...%
 type = internal/xkeyboard
 blacklist-0 = num lock
 
+
 format-prefix = " "
 ;format-prefix = " "
 format-prefix-foreground = ${colors.foreground-alt}
@@ -112,8 +129,8 @@ format-prefix-foreground = ${colors.foreground-alt}
 label-layout = %layout%
 ;label-layout-underline = ${colors.secondary}
 
-label-indicator-padding = 0
-label-indicator-margin = 0
+label-indicator-padding = 2
+label-indicator-margin = 1
 label-indicator-background = ${colors.secondary}
 ;label-indicator-underline = ${colors.secondary}
 
@@ -123,12 +140,13 @@ interval = 25
 
 mount-0 = /
 
-;label-mounted = %{F#0a81f5}%mountpoint%%{F-}: %percentage_used%%
-;format-mounted-prefix = " "
-format-mounted-prefix = "  "
+
+
+format-mounted-prefix = " "
 format-mounted-foreground = ${colors.foreground-alt}
+format = <label-mounted>
 label-mounted = %free%
-label-mounted-foreground = ${colors.foreground}  
+label-mounted-foreground = ${colors.foreground}
 label-unmounted = %mountpoint% not mounted
 label-unmounted-foreground = ${colors.foreground-alt}
 
@@ -153,6 +171,8 @@ label-empty-padding = 2
 
 ; Separator in between workspaces
 ; label-separator = |
+
+
 
 [module/i3]
 type = internal/i3
@@ -248,12 +268,15 @@ label = %percentage_used%%
 
 [module/wlan]
 type = internal/network
-interface = net1
+interface = wlp2s0
 interval = 3.0
 
-format-connected = <ramp-signal> <label-connected>
+format-connected-prefix = " "
+format-connected-foreground = ${colors.foreground-alt}
+
 ;format-connected-underline = #9f78e1
 label-connected = %essid%
+label-connected-foreground = ${colors.foreground}
 
 format-disconnected =
 ;format-disconnected = <label-disconnected>
@@ -270,13 +293,11 @@ ramp-signal-foreground = ${colors.foreground-alt}
 
 [module/eth]
 type = internal/network
-interface = enp0s31f6
+interface = net0
 interval = 3.0
 
-;format-connected-underline = #55aa55
-
-format-connected-prefix = " "
-;format-connected-prefix = " "
+format-connected-underline = #55aa55
+format-connected-prefix = " "
 format-connected-prefix-foreground = ${colors.foreground-alt}
 label-connected = %local_ip%
 
@@ -296,11 +317,10 @@ date-alt = " %Y-%m-%d"
 time = %H:%M
 time-alt = %H:%M:%S
 
-format-prefix = " "
+format-prefix = " " 
 ;format-prefix = 
 format-prefix-foreground = ${colors.foreground-alt}
 ;format-underline = #0a6cf5
-
 
 label = %date% %time%
 
@@ -308,7 +328,6 @@ label = %date% %time%
 type = internal/pulseaudio
 
 format-volume = <label-volume> <bar-volume>
-;label-volume = 
 label-volume = 
 label-volume-foreground = ${colors.foreground-alt}
 
@@ -363,33 +382,33 @@ bar-volume-empty-foreground = ${colors.foreground-alt}
 [module/battery]
 type = internal/battery
 battery = BAT0
-adapter = ADP1
+adapter = AC0
 full-at = 98
 
 format-charging = <animation-charging> <label-charging>
-format-charging-underline = #ffb52a
+;format-charging-underline = #ffb52a
 
 format-discharging = <animation-discharging> <label-discharging>
-format-discharging-underline = ${self.format-charging-underline}
+;format-discharging-underline = ${self.format-charging-underline}
 
 format-full-prefix = " "
 format-full-prefix-foreground = ${colors.foreground-alt}
-format-full-underline = ${self.format-charging-underline}
+;format-full-underline = ${self.format-charging-underline}
 
 ramp-capacity-0 = 
-ramp-capacity-1 = 
+ramp-capacity-1 = 
 ramp-capacity-2 = 
 ramp-capacity-foreground = ${colors.foreground-alt}
 
-animation-charging-0 = 
-animation-charging-1 = 
-animation-charging-2 = 
+animation-charging-0 = 
+animation-charging-1 = 
+animation-charging-2 = 
 animation-charging-foreground = ${colors.foreground-alt}
 animation-charging-framerate = 750
 
-animation-discharging-0 = 
-animation-discharging-1 = 
-animation-discharging-2 = 
+animation-discharging-0 = 
+animation-discharging-1 = 
+animation-discharging-2 = 
 animation-discharging-foreground = ${colors.foreground-alt}
 animation-discharging-framerate = 750
 
@@ -397,7 +416,6 @@ animation-discharging-framerate = 750
 type = internal/temperature
 thermal-zone = 0
 warn-temperature = 60
-
 
 format-prefix = " "
 format-prefix-foreground = ${colors.foreground-alt}
@@ -421,7 +439,8 @@ expand-right = true
 
 format-spacing = 1
 
-label-open = 
+label-open = " " 
+;label-open = 
 label-open-foreground = ${colors.secondary}
 label-close =  cancel
 label-close-foreground = ${colors.secondary}
